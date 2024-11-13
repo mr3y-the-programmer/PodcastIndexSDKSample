@@ -41,7 +41,7 @@ kotlin {
         androidMain.dependencies {
             implementation(compose.preview)
             implementation(libs.androidx.activity.compose)
-            implementation(libs.ktor.okhttp)
+            implementation(libs.ktor.android)
         }
         commonMain.dependencies {
             implementation(compose.runtime)
